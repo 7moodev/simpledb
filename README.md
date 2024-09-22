@@ -2,7 +2,7 @@
 
 ## A simple user storing and retrieval script, built entirely on Rust using the Solana Program and Solana's Rust SDK.
 Assuming you already have Solana cli installed.
-### `simpledb` as current working directory:
+### having **simpledb** as current working directory:
 - run `npm run clean`
 - run `npm run build:program`
 - run `solana program deploy dist/program/program.so`
