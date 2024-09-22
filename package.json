@@ -1,0 +1,14 @@
+{
+    "name": "simpledb",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/7moodev/simpledb.git"
+    },
+    "scripts": {
+        "clean": "npm run clean:program",
+        "build:program": "cargo build-bpf --manifest-path=./program/Cargo.toml --bpf-out-dir=dist/program",
+        "clean:program": "cargo clean --manifest-path=./program/Cargo.toml && rm -rf ./dist"
+    }
+}

@@ -1,0 +1,12 @@
+[package]
+name = "program"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+borrow = "0.1.0"
+borsh = "1.5.1"
+solana-client = "2.0.10"
+solana-sdk = "2.0.10"
+
