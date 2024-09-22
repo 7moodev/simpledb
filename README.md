@@ -1,6 +1,6 @@
 ![Build Status](https://img.shields.io/badge/simple-db-brightgreen)
 
-## A simple user storing and retrieval script, built entirely on Rust using the Solana Program and Solana's Rust SDK.
+## A simple user information storing program and retrieval script, built entirely on Rust using the Solana Program and Solana's Rust SDK.
 Assuming you already have Solana cli installed:
 - set `/simpledb` as current working directory
 - run `npm run clean`
